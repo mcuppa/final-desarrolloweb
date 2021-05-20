@@ -1,0 +1,103 @@
+/* Variables <----------------------------------------------*/
+/* Generales <-------------------------------------------- */
+.nav-link {
+  font-size: 16pt;
+  font-weight: 700; }
+
+.nav-link:hover {
+  text-decoration: underline; }
+
+.boton--color {
+  background-color: #5885af; }
+
+/* Generales <--------------------------------------------- */
+/* Propiedades <--------------------------------------------------------------------- */
+.imagenTarjeta {
+  max-width: 286px;
+  max-height: 190px; }
+
+.tarjeta {
+  background-color: silver;
+  margin: 1rem;
+  max-height: 450px; }
+
+.tarjeta__lista {
+  list-style: none; }
+
+.encabezado {
+  padding-bottom: 5rem; }
+
+.conlumnaBusqueda {
+  max-width: 100px;
+  max-height: 70vh;
+  border: 1px solid black; }
+
+.contenedorCard {
+  max-width: 400px;
+  margin-left: 3rem; }
+
+/* Propiedades Fin <---------------------------------------------------------------------- */
+/* Contacto <---------------------------------------------------------------*/
+.contacto {
+  margin-bottom: 5rem; }
+
+.contenedorBalcones {
+  overflow: hidden; }
+
+.contenedorBalcones__fondoBalcones {
+  max-height: 43rem; }
+
+/* Contacto fin  <---------------------------------------------------------*/
+/* Nosotros <----------------------------------------------------------- */
+.contenedorNosotros__columna {
+  height: 165vh; }
+
+.contenedorNosotros__fondo {
+  width: 600px;
+  height: 120vh; }
+
+.parrafoNosotros {
+  max-width: 50vw; }
+
+.parrafoNosotros hr {
+  border: 2px solid black; }
+
+.piePagina {
+  background: #343a40;
+  padding: 40px; }
+
+.piePagina a {
+  color: #f8f9fa; }
+
+.pad-1 {
+  padding-bottom: 1em; }
+
+.pad-2 {
+  padding-bottom: 2em; }
+
+.pad-3 {
+  padding-bottom: 3em; }
+
+.bgc--color1 {
+  background-color: #274472; }
+
+.bgc--color2 {
+  background-color: #C3E0E5; }
+
+.bgc--color3 {
+  background-color: #5885AF; }
+
+.contenido404 {
+  height: 100vh; }
+
+.fondoError {
+  height: 60vh;
+  width: 60vw; }
+
+.logo {
+  max-width: 18rem;
+  max-height: 4rem; }
+
+.navBar {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600; }
