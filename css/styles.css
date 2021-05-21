@@ -1,103 +1,224 @@
 /* Variables <----------------------------------------------*/
 /* Generales <-------------------------------------------- */
-.nav-link {
-  font-size: 16pt;
-  font-weight: 700; }
-
-.nav-link:hover {
-  text-decoration: underline; }
 
 .boton--color {
-  background-color: #5885af; }
+  background-color: #5885af;
+}
+
+.nuestraEmpresa hr{
+  border: 2px solid black;
+}
 
 /* Generales <--------------------------------------------- */
 /* Propiedades <--------------------------------------------------------------------- */
 .imagenTarjeta {
   max-width: 286px;
-  max-height: 190px; }
+  max-height: 190px;
+}
 
 .tarjeta {
   background-color: silver;
   margin: 1rem;
-  max-height: 450px; }
+  max-height: 450px;
+}
 
 .tarjeta__lista {
-  list-style: none; }
+  list-style: none;
+}
 
 .encabezado {
-  padding-bottom: 5rem; }
+  padding-bottom: 5rem;
+}
 
 .conlumnaBusqueda {
   max-width: 100px;
   max-height: 70vh;
-  border: 1px solid black; }
+  border: 1px solid black;
+}
 
 .contenedorCard {
   max-width: 400px;
-  margin-left: 3rem; }
+  margin-left: 3rem;
+}
 
 /* Propiedades Fin <---------------------------------------------------------------------- */
 /* Contacto <---------------------------------------------------------------*/
 .contacto {
-  margin-bottom: 5rem; }
+  margin-bottom: 5rem;
+}
 
 .contenedorBalcones {
-  overflow: hidden; }
+  overflow: hidden;
+}
 
 .contenedorBalcones__fondoBalcones {
-  max-height: 43rem; }
+  max-height: 43rem;
+}
 
 /* Contacto fin  <---------------------------------------------------------*/
 /* Nosotros <----------------------------------------------------------- */
 .contenedorNosotros__columna {
-  height: 165vh; }
+  height: 165vh;
+}
 
 .contenedorNosotros__fondo {
   width: 600px;
-  height: 120vh; }
+  height: 120vh;
+}
 
 .parrafoNosotros {
-  max-width: 50vw; }
+  max-width: 50vw;
+}
 
 .parrafoNosotros hr {
-  border: 2px solid black; }
+  border: 2px solid black;
+}
 
 .piePagina {
   background: #343a40;
-  padding: 40px; }
+  padding: 40px;
+}
 
 .piePagina a {
-  color: #f8f9fa; }
+  color: #f8f9fa;
+}
 
 .pad-1 {
-  padding-bottom: 1em; }
+  padding-bottom: 1em;
+}
 
 .pad-2 {
-  padding-bottom: 2em; }
+  padding-bottom: 2em;
+}
 
 .pad-3 {
-  padding-bottom: 3em; }
+  padding-bottom: 3em;
+}
 
 .bgc--color1 {
-  background-color: #274472; }
+  background-color: #274472;
+}
 
 .bgc--color2 {
-  background-color: #C3E0E5; }
+  background-color: #c3e0e5;
+}
 
 .bgc--color3 {
-  background-color: #5885AF; }
+  background-color: #5885af;
+}
 
 .contenido404 {
-  height: 100vh; }
+  height: 100vh;
+}
 
 .fondoError {
   height: 60vh;
-  width: 60vw; }
+  width: 60vw;
+}
 
 .logo {
   max-width: 18rem;
-  max-height: 4rem; }
+  max-height: 4rem;
+}
 
 .navBar {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600; }
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+/* Border from Y to X  */
+div.borderYtoX a:before,
+div.borderYtoX a:after {
+  position: absolute;
+  opacity: 0.3;
+  height: 100%;
+  width: 2px;
+  content: "";
+  background: #5885af;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+div.borderYtoX a:before {
+  left: 0px;
+  top: 0px;
+}
+
+div.borderYtoX a:after {
+  right: 0px;
+  bottom: 0px;
+}
+
+div.borderYtoX a:hover:before,
+div.borderYtoX a:hover:after {
+  opacity: 0.7;
+  height: 2px;
+  width: 100%;
+}
+
+div.navegacion {
+  font-family: Raleway;
+  text-align: center;
+}
+
+div.navegacion a {
+  color: #5885af;
+  text-decoration: none;
+  text-transform: uppercase;
+  font: 18pt sans;
+  position: relative;
+  z-index: 0;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+@media (max-width: 414px) {
+  div.navegacion a {
+    color: #5885af;
+    text-decoration: none;
+    text-transform: uppercase;
+    font: 18pt sans;
+    position: relative;
+    z-index: 0;
+    padding: 0;
+    cursor: pointer;
+  }
+  div.borderYtoX a:hover:before,
+  div.borderYtoX a:hover:after {
+    opacity: 0.7;
+    height: 2px;
+    width: 100%;
+  }
+  div.navegacion {
+    font-family: Raleway;
+    text-align: center;
+  }
+  div.borderYtoX a:before,
+  div.borderYtoX a:after {
+    position: absolute;
+    opacity: 0.3;
+    height: 100%;
+    width: 2px;
+    content: "";
+    background: #5885af;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+  }
+
+  div.borderYtoX a:before {
+    left: 0px;
+    top: 0px;
+  }
+
+  div.borderYtoX a:after {
+    right: 0px;
+    bottom: 0px;
+  }
+
+}
