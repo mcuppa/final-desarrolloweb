@@ -1,4 +1,18 @@
-/* Variables <----------------------------------------------*/
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+/* Tasaciones <----------------------------------------------*/
+.parrafoTasaciones h3 {
+  margin: 1.2rem 0rem;
+  font-weight: 600;
+  font-size: 19pt;
+}
+
+.parrafoTasaciones p {
+  margin: 2rem 0rem;
+  font-size: 14pt;  
+  font-family: open-sans;
+}
 /* Generales <-------------------------------------------- */
 
 .boton--color {
@@ -6,9 +20,12 @@
 }
 
 .nuestraEmpresa hr{
-  border: 2px solid black;
+  border: 1px solid black;
 }
 
+.titulos { 
+  font-weight: 600;
+}
 /* Generales <--------------------------------------------- */
 /* Propiedades <--------------------------------------------------------------------- */
 .imagenTarjeta {
@@ -71,7 +88,7 @@
 }
 
 .parrafoNosotros hr {
-  border: 2px solid black;
+  border: 1px solid black;
 }
 
 .piePagina {
